@@ -1,6 +1,5 @@
-[ISAPI_Rewrite]
-#CacheClockRate 3600
-#RepeatLimit 32
+RewriteEngine On
+RewriteBase /
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
